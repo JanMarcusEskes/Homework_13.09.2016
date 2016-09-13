@@ -20,8 +20,8 @@ namespace Dreiecks_Berechnung
 
             Console.WriteLine("Seite c ist " + c + "cm lang");
             Console.WriteLine("");
-            double Volumen = a * b * 0.5;
-            Console.WriteLine("Das Volumen ist " + Volumen + "cm²");
+            double Flaeche = a * b * 0.5;
+            Console.WriteLine("Die Fläche ist " + Flaeche + "cm²");
             double Umfang = a + b + c;
             Console.WriteLine("Der Umfang ist " + Umfang + "cm");
             Console.ReadLine();
